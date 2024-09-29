@@ -1,0 +1,42 @@
+/* styles/dueInvoices.css */
+
+.due-invoices-container {
+    padding: 2rem;
+    background: linear-gradient(to right, #4caf50, #81c784);
+    color: rgb(61, 193, 110);
+    min-height: 100vh;
+}
+
+.due-invoices-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.due-invoices-list {
+    list-style: none;
+    padding: 0;
+}
+
+.due-invoices-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    transition: background 0.3s ease-in-out;
+}
+
+.due-invoices-item:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
